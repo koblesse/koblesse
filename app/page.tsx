@@ -43,11 +43,11 @@ export default function KoblessePage() {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
       <section className="relative overflow-hidden border-b border-stone-200">
-        <div className='absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(120,113,108,0.12),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(214,211,209,0.5),transparent_35%)]' />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(120,113,108,0.12),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(214,211,209,0.5),transparent_35%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-8 lg:px-10">
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-xs uppercase tracking-[0.35em] text-stone-500">
+              <div className="text-6xl uppercase tracking-[.50em] text-stone-500">
                 Koblesse
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function KoblessePage() {
               <a href="#sectors" className="transition hover:text-stone-900">
                 Sectors
               </a>
-              <a href="#founder" className="transition hover:text-stone-900">
-                Founder
+              <a href="#founders" className="transition hover:text-stone-900">
+                Founders
               </a>
               <a
                 href="#case-studies"
@@ -81,7 +81,7 @@ export default function KoblessePage() {
               <div className="mb-4 inline-flex rounded-full border border-stone-300 bg-white/70 px-4 py-2 text-xs uppercase tracking-[0.25em] text-stone-600 backdrop-blur">
                 Luxury Lifestyle Consultancy
               </div>
-              <h1 className="max-w-4xl text-5xl font-light leading-tight tracking-tight md:text-6xl lg:text-7xl">
+              <h1 className="max-w-xl text-xl font-light leading-tight tracking-tight md:text-xl lg:text-6xl">
                 Advisory for luxury assets, hospitality platforms, and lifestyle
                 brands pursuing disciplined growth.
               </h1>
@@ -161,10 +161,7 @@ export default function KoblessePage() {
         </div>
       </section>
 
-      <section
-        id="services"
-        className="border-y border-stone-200 bg-white"
-      >
+      <section id="services" className="border-y border-stone-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
           <div className="max-w-2xl">
             <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
@@ -257,8 +254,8 @@ export default function KoblessePage() {
         className="border-t border-stone-200 bg-stone-50"
       >
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
-          <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="rounded-[2rem] border border-stone-200 bg-white p-10 shadow-xl shadow-stone-200/40">
+          <div className="grid items-stretch gap-8 lg:grid-cols-2">
+            <div className="h-full rounded-[2rem] border border-stone-200 bg-white p-10 shadow-xl shadow-stone-200/40">
               <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
                 Co-Founder
               </div>
@@ -284,35 +281,46 @@ export default function KoblessePage() {
               </p>
             </div>
 
-            <div className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-xl shadow-stone-200/40">
+            <div className="h-full rounded-[2rem] border border-stone-200 bg-white p-10 shadow-xl shadow-stone-200/40">
               <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
                 Co-Founder
-              <h2 className="mt-4 text-3xl font-light tracking-tight">Bomi Kim</h2>
+              </div>
+              <h2 className="mt-4 text-3xl font-light tracking-tight">
+                Bomi Kim
+              </h2>
               <div className="mt-2 text-sm text-stone-600">
                 Chief Executive Officer | Global Wellness Expert
               </div>
               <p className="mt-6 text-base leading-8 text-stone-600">
-                Bomi leads Koblesse with a perspective shaped by modern luxury, wellness-led experience, and brand sensitivity. As Chief Executive Officer, she brings a disciplined understanding of how hospitality, lifestyle, and well-being converge to create concepts that feel both commercially relevant and emotionally resonant.
+                Bomi leads Koblesse with a perspective shaped by modern luxury,
+                wellness-led experience, and brand sensitivity. As Chief
+                Executive Officer, she brings a disciplined understanding of how
+                hospitality, lifestyle, and well-being converge to create
+                concepts that feel both commercially relevant and emotionally
+                resonant.
               </p>
               <p className="mt-4 text-base leading-8 text-stone-600">
-                Her leadership is defined by an instinct for guest behavior, aesthetic clarity, and experience design—helping translate market shifts into offerings that strengthen differentiation, deepen engagement, and elevate long-term brand value.
+                Her leadership is defined by an instinct for guest behavior,
+                aesthetic clarity, and experience design—helping translate
+                market shifts into offerings that strengthen differentiation,
+                deepen engagement, and elevate long-term brand value.
               </p>
-            
             </div>
-            <div className="space-y-6 text-base leading-8 text-stone-600">
+
+            <div className="lg:col-span-2 rounded-[2rem] border border-stone-200 bg-white p-10 shadow-xl shadow-stone-200/30">
               <div className="text-sm uppercase tracking-[0.25em] text-stone-500">
                 Perspective
               </div>
-              <p>
+              <p className="mt-6 max-w-5xl text-base leading-8 text-stone-600">
                 Koblesse is informed by direct experience operating within
-                complex ownership structures, working alongside boards, and
-                delivering results where expectations are both high and
-                immediate.
+                complex ownership structures, working alongside boards and
+                property leadership, and delivering results where expectations
+                are both high and immediate.
               </p>
-              <p>
-                The advisory approach reflects this reality—clear, commercially
-                grounded, and designed to support decisions that impact asset
-                value, brand strength, and long-term positioning.
+              <p className="mt-4 max-w-5xl text-base leading-8 text-stone-600">
+                The advisory approach reflects this reality—clear,
+                commercially grounded, and designed to support decisions that
+                impact asset value, brand strength, and long-term positioning.
               </p>
             </div>
           </div>
@@ -448,7 +456,7 @@ export default function KoblessePage() {
                   Email
                 </div>
                 <div className="mt-2 text-lg text-stone-900">
-                  hello@koblesse.com
+                  bomi.kim@koblesse.com
                 </div>
               </div>
               <div>
