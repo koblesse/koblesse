@@ -47,7 +47,7 @@ export default function KoblessePage() {
         <div className="relative mx-auto max-w-7xl px-6 py-8 lg:px-10">
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-2xl uppercase tracking-[.50em] text-stone-500">
+              <div className="text-3xl uppercase tracking-[.50em] text-stone-500">
                 Koblesse
               </div>
             </div>
